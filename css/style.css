@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.bannar-background {
+  background-color: #feeae9;
+}
+
+.bannar-paragraph {
+  color: #4e4e4e;
+}
+
+.bannar-amount {
+  color: #ff136f;
+}
+
+.bannar-btn {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.watch-catagorie-bg {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.bag-catagorie-bg {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.shoe-catagorie-bg {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+.shoe-section,
+.bag-section {
+  background: #f4f4f4;
+}
+
+.contact-section > .container {
+  background: #fff2f1;
+}
+
+.contact-btn {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
+}

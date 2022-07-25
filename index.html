@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pand E-commerce</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/c5733fe81c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css file -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <!-- navbar section -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">
+            <img src="./images/logo.png" alt="" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-auto"
+            id="navbarSupportedContent"
+          >
+            <form class="d-flex mx-auto w-50" role="search">
+              <input
+                class="form-control me-2 rounded-5"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--Carousel- Bannar section -->
+      <section class="bannar-section">
+        <div class="container">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner p-5">
+              <div
+                class="carousel-item bannar-background active p-5 rounded-5"
+                data-bs-interval="10000"
+              >
+                <div class="row g-5">
+                  <div
+                    class="col-lg-7 col-md-8 col-sm-12 d-flex flex-column justify-content-center align-items-center text-sm-center"
+                  >
+                    <div class="bannar-title text-lg-start text-center">
+                      <h1>Mi LED TV 4A PRO 32</h1>
+                      <p class="bannar-paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                      </p>
+                      <h3 class="bannar-amount">$1289</h3>
+                      <button
+                        class="border-0 bannar-btn text-light px-4 py-2 rounded-3"
+                      >
+                        BUY NOW <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <img
+                      src="./images/banner-images/tv.png"
+                      class="d-block w-100 img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="carousel-item bannar-background p-5 rounded-5"
+                data-bs-interval="10000"
+              >
+                <div class="row g-5">
+                  <div
+                    class="col-lg-7 d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div class="bannar-title text-lg-start text-center">
+                      <h1>X-Box for your living room</h1>
+                      <p class="bannar-paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                      </p>
+                      <h3 class="bannar-amount">$600</h3>
+                      <button
+                        class="border-0 bannar-btn text-light px-4 py-2 rounded-3"
+                      >
+                        BUY NOW <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <img
+                      src="./images/banner-images/xbox.png"
+                      class="d-block w-100 img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="carousel-item bannar-background p-5 rounded-5"
+                data-bs-interval="10000"
+              >
+                <div class="row g-5">
+                  <div
+                    class="col-lg-7 d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div class="bannar-title text-lg-start text-center">
+                      <h1>Cool Dude Headphone</h1>
+                      <p class="bannar-paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                      </p>
+                      <h3 class="bannar-amount">$420</h3>
+                      <button
+                        class="border-0 bannar-btn text-light px-4 py-2 rounded-3"
+                      >
+                        BUY NOW <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <img
+                      src="./images/banner-images/headphone.png"
+                      class="d-block w-100 img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Catagories section -->
+      <section class="catagories-section mb-5">
+        <div class="container px-5">
+          <h1 class="ps-5 mb-5">Categories</h1>
+          <div class="row g-5 px-5">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="item p-3 watch-catagorie-bg text-light d-flex justify-content-evenly align-items-center rounded-3"
+              >
+                <h1 class="">Watch</h1>
+                <img
+                  class="img-fluid"
+                  style="width: 7.5rem"
+                  src="./images/categories/watch.png"
+                  alt="Watch catagorie"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="item p-3 bag-catagorie-bg text-light d-flex justify-content-evenly align-items-center rounded-3"
+              >
+                <h1 class="">Bag</h1>
+                <img
+                  class="img-fluid"
+                  style="width: 7.5rem"
+                  src="./images/categories/bag.png"
+                  alt="Watch catagorie"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="item p-3 shoe-catagorie-bg text-light d-flex justify-content-evenly align-items-center rounded-3"
+              >
+                <h1 class="">Shoes</h1>
+                <img
+                  class="img-fluid"
+                  style="width: 7.5rem"
+                  src="./images/categories/shoes.png"
+                  alt="Watch catagorie"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shoes section -->
+      <section class="bag-section py-5">
+        <div class="container px-5">
+          <h1 class="ps-5 mb-3">Shoes</h1>
+          <div class="row g-5 px-5">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 rounded-5 shadow text-center p-1">
+                <img
+                  src="./images/shoes/shoe-1.png"
+                  class="card-img-top"
+                  alt="shoe image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-2">Reebok Dart</h5>
+                  <p class="card-text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <h5 class="fw-2">$1289</h5>
+                  <a href="#" class="btn btn-dark text-white"
+                    >BUY NOW <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 rounded-5 shadow text-center p-1">
+                <img
+                  src="./images/shoes/shoe-2.png"
+                  class="card-img-top"
+                  alt="shoe image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-2">Reebok Pump</h5>
+                  <p class="card-text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <h5 class="fw-2">$799</h5>
+                  <a href="#" class="btn btn-dark text-white"
+                    >BUY NOW <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 rounded-5 shadow text-center p-1">
+                <img
+                  src="./images/shoes/shoe-3.png"
+                  class="card-img-top"
+                  alt="shoe image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-2">Reebok All Terrain</h5>
+                  <p class="card-text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <h5 class="fw-2">$699</h5>
+                  <a href="#" class="btn btn-dark text-white"
+                    >BUY NOW <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Backpack section -->
+      <section class="bag-section py-5">
+        <div class="container px-5">
+          <h1 class="ps-5 mb-3">Backpack</h1>
+          <div class="row g-5 px-5">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 rounded-5 shadow text-center p-1">
+                <img
+                  src="./images/bags/bag-1.png"
+                  class="card-img-top"
+                  alt="Bag image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-2">Ison Backpack</h5>
+                  <p class="card-text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <h5 class="fw-2">$1289</h5>
+                  <a href="#" class="btn btn-dark text-white"
+                    >BUY NOW <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 rounded-5 shadow text-center p-1">
+                <img
+                  src="./images/bags/bag-2.png"
+                  class="card-img-top"
+                  alt="Bag image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-2">Biaowang Backpack</h5>
+                  <p class="card-text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <h5 class="fw-2">$799</h5>
+                  <a href="#" class="btn btn-dark text-white"
+                    >BUY NOW <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 rounded-5 shadow text-center p-1">
+                <img
+                  src="./images/bags/bag-3.png"
+                  class="card-img-top"
+                  alt="bag image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-2">Dxyizu WS54 Smart</h5>
+                  <p class="card-text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                  <h5 class="fw-2">$699</h5>
+                  <a href="#" class="btn btn-dark text-white"
+                    >BUY NOW <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section p-5">
+        <div class="container rounded-5 text-center p-5">
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales specials and more</p>
+          <input
+            class="bg-white border-0 rounded-start w-25 px-2 me-0"
+            style="height: 2.7rem"
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter your email"
+          />
+          <button
+            class="btn contact-btn text-white px-4 py-2 rounded-0 rounded-end ms-0"
+          >
+            Send
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!-- bootstrap js file -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
